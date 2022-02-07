@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+body{
+    padding: 10px;
+    background-image: url(../img/pexels-julia-zolotova-6516464.jpg);
+    background-size:cover;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    max-width: 800px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'DM Serif Text', serif;
+}
+
+
+

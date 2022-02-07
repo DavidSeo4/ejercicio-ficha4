@@ -9,8 +9,13 @@ comprobar_sesion();
 <head>
     <meta charset="UTF-8">
     <title>Lista de categorías</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/comun.css">
+    <script src="../components/header.js"></script>
 </head>
 <body>
+<header-component></header-component>
+    <div class="div">
     <?php require 'cabecera.php';?>
     <h1>Lista de categorías</h1>
     <!--lista de vínculos con la forma de productos.php?categoria=1-->
@@ -28,5 +33,6 @@ comprobar_sesion();
         echo "</ul>";
     }
     ?>
+    </div>
 </body>
 </html>
