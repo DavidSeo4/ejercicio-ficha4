@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '944c27bb54e8cca654a6bc6d0a88c3eb5f14792f',
+    'reference' => 'dd74a53339e5a22d13636235e13df5cdb4df3fdf',
     'name' => '__root__',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '944c27bb54e8cca654a6bc6d0a88c3eb5f14792f',
+      'reference' => 'dd74a53339e5a22d13636235e13df5cdb4df3fdf',
     ),
     'phpmailer/phpmailer' => 
     array (
@@ -52,6 +52,22 @@ private static $installed = array (
       array (
       ),
       'reference' => 'baeb7cde6b60b1286912690ab0693c7789a31e71',
+    ),
+    'twbs/bootstrap' => 
+    array (
+      'pretty_version' => 'v5.1.3',
+      'version' => '5.1.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1a6fdfae6be09b09eaced8f0e442ca6f7680a61e',
+    ),
+    'twitter/bootstrap' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v5.1.3',
+      ),
     ),
   ),
 );
