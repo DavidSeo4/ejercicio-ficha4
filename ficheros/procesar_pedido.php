@@ -1,6 +1,6 @@
 <?php
 // comprueba que el usuario haya abierto sesion o redirige
-require '..\correo\enviar_correo.php';
+require 'correo.php';
 require 'sesiones.php';
 require_once 'bd.php';
 comprobar_sesion();

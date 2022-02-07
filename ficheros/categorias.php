@@ -22,8 +22,8 @@ comprobar_sesion();
         echo "<ul>"; //abrir la lista
         foreach($categorias as $cat){
             //$cat['nombre] $cat['codCat']/
-            $url = "productor.php?categoria=".$cat['codCat'];
-            echo "<li><a href='$url'>"-$cat['nombre']."</a></li>";
+            $url = "productos.php?categoria=".$cat['codCat'];
+            echo "<li><a href='$url'>".$cat['nombre']."</a></li>";
         }
         echo "</ul>";
     }
