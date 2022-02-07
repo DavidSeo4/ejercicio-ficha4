@@ -26,7 +26,7 @@ function crear_correo($carrito, $pedido, $correo){
         $nom = $producto['Nombre'];
         $des = $producto['Descripcion'];
         $peso = $producto['Peso'];
-        $unidades = $_SESSION['carrito'][$cod];
+        $unidades = $_SESSION['carrito'][$cod];		
         $texto.= "<tr>
                     <td>$nom</td>
                     <td>$des</td>

@@ -22,14 +22,15 @@ comprobar_sesion();
         echo "No se ha podido realizar el pedido<br>";
     } else{
         $correo = $_SESSION['usuario']['correo'];
-        echo "Pedido realizado correctamente<br>";
-        // vaciar carrito
-        $compra = $_SESSION['carrito'];
-        $_SESSION['carrito'] = [];
-        echo "Pedido realizado con exito.
-        Se enviará un correo de confirmacion a: $correo";
-        enviar_correos($compra,$pedido, $correo);
-    }
+		echo "Pedido realizado con éxito. Se enviará un correo de confirmación a: $correo ";							
+		$conf = enviar_correos($_SESSION['carrito'], $resul, $correo);							
+		if($conf!==TRUE){
+			echo "Error al enviar: $conf <br>";
+		};		
+		//vaciar carrito	
+		$_SESSION['carrito'] = [];
+
+		}
     ?>
     
 </body>
